@@ -1,9 +1,17 @@
+:root {
+  --logo-color-text: #4d5ae5;
+  --logo-color-studio: #2e2f42;
+  --color-text-menu: #2e2f42;
+}
+
 body {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header-one {
@@ -19,12 +27,7 @@ body {
   margin-bottom: 0px;
 }
 .hero {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background-color: #2e2f42;
-  position: absolute;
   margin-bottom: 500px;
 }
 
@@ -49,19 +52,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 4%;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 356px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
   background-color: #4d5ae5;
   color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .button:hover,
@@ -84,21 +76,28 @@ body {
   color: #404bbf;
 }
 
-.list-menu-link {
-  width: 48px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
+.menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-text-menu);
   text-decoration: none;
 }
 
-.list-menu-link:hover,
-.list-menu-link:focus {
+.adres {
+  font-style: normal;
+}
+.list-contacts-link.link {
+  color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -109,19 +108,22 @@ ul {
 
 .logo {
   text-decoration: none;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--logo-color-text);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .part-logo {
-  color: #4d5ae5;
+  color: var(--logo-color-studio);
 }
 
 p {
@@ -137,9 +139,6 @@ p {
 }
 
 footer {
-  width: 1440px;
-  height: 312px;
-  left: 0px;
   background: #2e2f42;
 }
 
