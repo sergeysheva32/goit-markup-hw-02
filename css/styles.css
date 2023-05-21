@@ -2,6 +2,8 @@
   --logo-color-text: #4d5ae5;
   --logo-color-studio: #2e2f42;
   --color-text-menu: #2e2f42;
+  --color-header-three: #2e2f42;
+  --color-header-two: #2e2f42;
 }
 
 body {
@@ -17,14 +19,14 @@ body {
 .header-one {
   font-family: 'Roboto';
   font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-style: normal;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
   margin-top: 188px;
   margin-bottom: 0px;
+  line-height: 1.07;
 }
 .hero {
   background-color: #2e2f42;
@@ -36,24 +38,30 @@ body {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 2%;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-header-two);
 }
 
 .header-three {
   font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 24px;
+  color: var(--color-header-three);
 }
 
 .button {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -126,7 +134,7 @@ ul {
   color: var(--logo-color-studio);
 }
 
-p {
+.advantages-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
