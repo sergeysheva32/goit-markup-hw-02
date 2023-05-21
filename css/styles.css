@@ -4,6 +4,7 @@
   --color-text-menu: #2e2f42;
   --color-header-three: #2e2f42;
   --color-header-two: #2e2f42;
+  --color-foot: #2e2f42;
 }
 
 body {
@@ -14,6 +15,10 @@ body {
   letter-spacing: 2%;
   color: #434455;
   background-color: #ffffff;
+}
+
+.foot-sect {
+  background-color: var(--color-foot);
 }
 
 .header-one {
@@ -37,11 +42,19 @@ body {
   font-family: 'Roboto' sans-serif;
   font-weight: bold;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--color-header-two);
+}
+
+.section-four {
+  background-color: #f4f4fd;
+}
+
+.list-name {
+  background-color: #ffffff;
 }
 
 .header-three {
@@ -114,24 +127,8 @@ ul {
   list-style-type: none;
 }
 
-.logo {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--logo-color-text);
-}
-
 .link {
   text-decoration: none;
-}
-
-.part-logo {
-  color: var(--logo-color-studio);
 }
 
 .advantages-text {
@@ -150,15 +147,29 @@ footer {
   background: #2e2f42;
 }
 
-.two-part-logo {
-  color: #f4f4fd;
-}
-
-footer p {
+.text-footer {
   color: #f4f4fd;
   margin-left: 156px;
 }
 
 footer .part-logo {
   margin-left: 156px;
+}
+
+.logo.link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color-text);
+}
+
+.part-logo {
+  color: var(--logo-color-studio);
+}
+
+.part-logo.white {
+  color: #f4f4fd;
 }
