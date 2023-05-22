@@ -1,10 +1,6 @@
 :root {
   --logo-color-text: #4d5ae5;
-  --logo-color-studio: #2e2f42;
-  --color-text-menu: #2e2f42;
-  --color-header-three: #2e2f42;
-  --color-header-two: #2e2f42;
-  --color-foot: #2e2f42;
+  --color-darkgrey: #2e2f42;
   --color-nav: #434455;
 }
 
@@ -19,7 +15,7 @@ body {
 }
 
 .foot-sect {
-  background-color: var(--color-foot);
+  background-color: var(--color-darkgrey);
 }
 
 .header-one {
@@ -47,7 +43,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: var(--color-header-two);
+  color: var(--color-darkgrey);
 }
 
 .section-four {
@@ -64,7 +60,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 24px;
-  color: var(--color-header-three);
+  color: var(--color-darkgrey);
 }
 
 .button {
@@ -88,7 +84,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text-menu);
+  color: var(--color-darkgrey);
 }
 
 .list-menu:hover,
@@ -161,7 +157,7 @@ footer .part-logo {
 }
 
 .part-logo {
-  color: var(--logo-color-studio);
+  color: var(--color-darkgrey);
 }
 
 .foot-part-logo {
