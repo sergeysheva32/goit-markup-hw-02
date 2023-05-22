@@ -5,6 +5,7 @@
   --color-header-three: #2e2f42;
   --color-header-two: #2e2f42;
   --color-foot: #2e2f42;
+  --color-nav: #434455;
 }
 
 body {
@@ -87,7 +88,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-darkgrey);
+  color: var(--color-text-menu);
 }
 
 .list-menu:hover,
@@ -103,7 +104,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-grey);
+  color: var(--color-nav);
 }
 
 .list-contacts:hover,
@@ -163,6 +164,6 @@ footer .part-logo {
   color: var(--logo-color-studio);
 }
 
-.part-logo.white {
+.foot-part-logo {
   color: #f4f4fd;
 }
