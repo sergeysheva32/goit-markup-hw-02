@@ -82,45 +82,37 @@ body {
   background-color: #404bbf;
 }
 
-.list-contacts-link {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-.list-contacts-link:hover,
-.list-contacts-link:focus {
-  color: #404bbf;
-}
-
-.menu-link {
+.list-menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text-menu);
-  text-decoration: none;
+  color: var(--color-darkgrey);
 }
 
-.adres {
+.list-menu:hover,
+.list-menu:focus {
+  color: #404bbf;
+}
+
+.text-add {
   font-style: normal;
 }
-.list-contacts-link.link {
+
+.list-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+.list-contacts:hover,
+.list-contacts:focus {
   color: #404bbf;
 }
 
 .list {
   list-style: none;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-  text-decoration: underline;
 }
 
 ul {
@@ -150,6 +142,7 @@ footer {
 .text-footer {
   color: #f4f4fd;
   margin-left: 156px;
+  letter-spacing: 0.02em;
 }
 
 footer .part-logo {
