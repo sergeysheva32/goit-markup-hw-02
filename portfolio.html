@@ -4,35 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/portfolio.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
       <nav>
-        <a class="logo" href="./index.html"
-          ><span class="part-logo">Web</span>Studio</a
+        <a class="logo link" href="./index.html"
+          >Web<span class="part-logo">Studio</span></a
         >
-        <ul class="list-menu">
+        <ul class="list">
           <li>
-            <a class="list-menu-link" href="">Studio</a>
+            <a class="list-menu link" href="./index.html">Studio</a>
           </li>
           <li>
-            <a class="list-menu-link" href="./portfolio.html">Portfolio</a>
+            <a class="list-menu link" href="./portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a class="list-menu-link" href="">Contacts</a>
+            <a class="list-menu link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul class="list-contacts">
-          <li class="contacts">
-            <a class="list-contacts-link" href="mailto:info@devstudio.com"
+      <address class="text-add">
+        <ul class="list">
+          <li>
+            <a class="list-contacts link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts">
-            <a class="list-contacts-link" href="tel:+110001111111"
+          <li>
+            <a class="list-contacts link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -41,18 +52,17 @@
     </header>
     <main>
       <section>
-        <h2 hidden>Buttons</h2>
-        <button class="button" type="button">All</button>
-        <button class="button" type="button">Web Site</button>
-        <button class="button" type="button">App</button>
-        <button class="button" type="button">Design</button>
-        <button class="button" type="button">Marketing</button>
-      </section>
-      <section>
-        <h2 hidden>Portfolio</h2>
-        <section>
-          <ul>
-            <li>
+        <h1 hidden>Buttons</h1>
+        <ul class="list">
+          <li><button class="hero" type="button">All</button></li>
+          <li><button class="hero" type="button">Web Site</button></li>
+          <li><button class="hero" type="button">App</button></li>
+          <li><button class="hero" type="button">Design</button></li>
+          <li><button class="hero" type="button">Marketing</button></li>
+        </ul>
+        <ul class="list">
+          <li>
+            <a href="">
               <img
                 src="./images/hw02-1.jpg"
                 width="360"
@@ -61,8 +71,10 @@
               />
               <h3>Banking App Interface Concept</h3>
               <p>App</p>
-            </li>
-            <li>
+            </a>
+          </li>
+          <li>
+            <a>
               <img
                 src="./images/hw02-2.jpg"
                 width="360"
@@ -71,8 +83,10 @@
               />
               <h3>Cashless Payment</h3>
               <p>Marketing</p>
-            </li>
-            <li>
+            </a>
+          </li>
+          <li>
+            <a>
               <img
                 src="./images/hw02-3.jpg"
                 width="360"
@@ -81,77 +95,69 @@
               />
               <h3>Meditation App</h3>
               <p>App</p>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <li>
-              <img
-                src="./images/hw02-4.jpg"
-                width="360"
-                height="300"
-                alt="Taxi Service"
-              />
-              <h3>Taxi Service</h3>
-              <p>Marketing</p>
-            </li>
-            <li>
-              <img
-                src="./images/hw02-5.jpg"
-                width="360"
-                height="300"
-                alt="Screen Illustrations"
-              />
-              <h3>Screen Illustrations</h3>
-              <p>Design</p>
-            </li>
-            <li>
-              <img
-                src="./images/hw02-6.jpg"
-                width="360"
-                height="300"
-                alt="Online Courses"
-              />
-              <h3>Online Courses</h3>
-              <p>Marketing</p>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <li>
-              <img
-                src="./images/hw02-7.jpg"
-                width="360"
-                height="300"
-                alt="Instagram Stories"
-              />
-              <h3>Instagram Stories Concept</h3>
-              <p>Design</p>
-            </li>
-            <li>
-              <img
-                src="./images/hw02-8.jpg"
-                width="360"
-                height="300"
-                alt="Organic Food"
-              />
-              <h3>Organic Food</h3>
-              <p>Web Site</p>
-            </li>
-            <li>
-              <img
-                src="./images/hw02-9.jpg"
-                width="360"
-                height="300"
-                alt="Fresh Coffee"
-              />
-              <h3>Fresh Coffee</h3>
-              <p>Web Site</p>
-            </li>
-          </ul>
-        </section>
+            </a>
+          </li>
+          <li>
+            <img
+              src="./images/hw02-4.jpg"
+              width="360"
+              height="300"
+              alt="Taxi Service"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/hw02-5.jpg"
+              width="360"
+              height="300"
+              alt="Screen Illustrations"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/hw02-6.jpg"
+              width="360"
+              height="300"
+              alt="Online Courses"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/hw02-7.jpg"
+              width="360"
+              height="300"
+              alt="Instagram Stories"
+            />
+            <h3>Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/hw02-8.jpg"
+              width="360"
+              height="300"
+              alt="Organic Food"
+            />
+            <h3>Organic Food</h3>
+            <p>Web Site</p>
+          </li>
+          <li>
+            <img
+              src="./images/hw02-9.jpg"
+              width="360"
+              height="300"
+              alt="Fresh Coffee"
+            />
+            <h3>Fresh Coffee</h3>
+            <p>Web Site</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
