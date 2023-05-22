@@ -32,7 +32,6 @@ body {
 }
 .hero {
   background-color: #2e2f42;
-  margin-bottom: 500px;
 }
 
 .header-two {
@@ -126,10 +125,6 @@ ul {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.section-two {
-  padding-top: 500px;
 }
 
 footer {
