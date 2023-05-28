@@ -1,17 +1,103 @@
 :root {
-  --logo-color-text: #4d5ae5;
+  --color-grey: #434455;
+  --color-blue: #4d5ae5;
   --color-darkgrey: #2e2f42;
-  --color-nav: #434455;
+  --color-button: #f4f4fd;
+  --color-dark-blue: #404bbf;
+  --color-white: #ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.part-logo {
+  color: var(--color-darkgrey);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-menu {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #434455;
-  background-color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-darkgrey);
+}
+
+.list-menu:hover,
+.list-menu:focus {
+  color: var(--color-dark-blue);
+}
+
+.list-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+.list-contacts:hover,
+.list-contacts:focus {
+  color: var(--color-dark-blue);
+}
+
+.hero-port {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-blue);
+  background-color: var(--color-button);
+  cursor: pointer;
+}
+
+.hero-port:hover,
+.hero-port:focus {
+  color: var(--color-white);
+}
+
+.hero-port:hover,
+.hero-port:focus {
+  background-color: var(--color-dark-blue);
+}
+
+.name-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-darkgrey);
+}
+
+.text-header {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+.foot-part-logo {
+  color: var(--color-button);
 }
 
 .foot-sect {
@@ -22,19 +108,16 @@ body {
   font-family: 'Roboto';
   font-size: 56px;
   letter-spacing: 0.02em;
-  font-style: normal;
-  font-weight: 700;
   text-align: center;
-  color: #ffffff;
+  color: var(--color-white);
   line-height: 1.07;
 }
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--color-darkgrey);
 }
 
 .header-two {
   font-family: 'Roboto' sans-serif;
-  font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.11;
@@ -44,11 +127,11 @@ body {
 }
 
 .section-four {
-  background-color: #f4f4fd;
+  background-color: var(--color-button);
 }
 
 .list-name {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .header-three {
@@ -66,14 +149,14 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--color-blue);
+  color: var(--color-white);
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-dark-blue);
 }
 
 .list-menu {
@@ -86,7 +169,7 @@ body {
 
 .list-menu:hover,
 .list-menu:focus {
-  color: #404bbf;
+  color: var(--color-dark-blue);
 }
 
 .text-add {
@@ -97,12 +180,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-nav);
+  color: var(--color-grey);
 }
 
 .list-contacts:hover,
 .list-contacts:focus {
-  color: #404bbf;
+  color: var(--color-dark-blue);
 }
 
 .list {
@@ -122,15 +205,15 @@ ul {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-grey);
 }
 
 footer {
-  background: #2e2f42;
+  background: var(--color-darkgrey);
 }
 
 .text-footer {
-  color: #f4f4fd;
+  color: var(--color-button);
   margin-left: 156px;
   letter-spacing: 0.02em;
 }
@@ -146,7 +229,7 @@ footer .part-logo {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color-text);
+  color: var(--color-blue);
 }
 
 .part-logo {
@@ -154,5 +237,5 @@ footer .part-logo {
 }
 
 .foot-part-logo {
-  color: #f4f4fd;
+  color: var(--color-button);
 }
